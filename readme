@@ -1,0 +1,23 @@
+# Composite Water Stress Index (CWSI)
+
+## Overview
+The **Composite Water Stress Index (CWSI)** is a multi-dimensional metric designed to assess water stress across countries by integrating various water usage and scarcity indicators into a single comparable score. This project aims to provide insights into global water resource challenges by combining data on consumption, scarcity, agricultural and industrial use, rainfall, and groundwater depletion.
+
+## Features
+- Data normalization using Min-Max scaling  
+- Dimensionality reduction and feature weighting via Principal Component Analysis (PCA)  
+- Weighted sum aggregation to compute the final CWSI score  
+- Visualization of water stress trends over time for multiple countries  
+- Comparative analysis of CWSI against other water stress indices  
+
+## Data
+The dataset includes:
+- Total Water Consumption (Billion Cubic Meters)  
+- Per Capita Water Use (Liters per Day)  
+- Agricultural Water Use (%)  
+- Industrial Water Use (%)  
+- Household Water Use (%)  
+- Rainfall Impact (Annual Precipitation in mm)  
+- Groundwater Depletion Rate (%)  
+- Time span: 2000-2024  
+- Multiple countries  
